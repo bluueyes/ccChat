@@ -1,0 +1,65 @@
+# 忽略构建相关的文件和文件夹
+build-llfcchat*
+Debug
+Release
+x64
+
+# 忽略 Visual Studio 的相关文件
+.vs
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 忽略 Qt 的 qmake 生成的文件
+*.qmake.stash
+
+# 忽略可执行文件和库文件
+*.exe
+*.ilk
+*.pdb
+*.lib
+*.dll
+
+# 忽略配置文件
+config.ini
+config.json
+
+# 忽略 Node.js 项目依赖
+node_modules/
+
+# 忽略编译和临时文件
+*.log
+*.bak
+*.swp
+*.tmp
+*.obj
+*.o
+*.a
+*.out
+
+# 忽略 Qt 生成的 moc 和其他编译文件
+*.moc
+*.qrc
+*.qmake.cache
+
+# 忽略 IDE 生成的特定文件
+*.user
+*.suo
+*.userosscache
+
+# 忽略编译过程中生成的头文件
+*.h.gch
+
+# 忽略 UI 文件和其他生成的文件
+chatUi/*.exe
+chatUi/*.ilk
+chatUi/*.pdb
+chatUi/*.vcxproj.user
+chatUi/*.qmake.stash
+
+# 忽略其他特定的 UI 头文件
+chatUi/ui_*.h
